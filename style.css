@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+header{
+    height: 100vh;
+    background-color: #fbaa38;
+    padding-top: 70px;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav, .add-menu{
+    width: 40%;
+}
+.logo{
+    width: 10%;    
+}
+nav ul.menu, .add-menu ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul.menu li{
+    margin-right: 20px;
+}
+nav ul.menu li:last-child{
+    margin-right: 0;
+}
+nav ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+.logo{
+    color: #fff;
+    font-weight: bolder;
+}
+.logo h2{
+    font-size: 40px;
+}
+.add-menu{
+    display: flex;
+    justify-content: flex-end;
+}
+.add-menu ul.add-menu-buttons li{
+    margin-right: 20px;
+}
+.add-menu ul.add-menu-buttons li:last-child{
+    margin-right: 0;
+}
+.add-menu ul.social li{
+    margin-right: 10px;
+}
+.add-menu ul.social li:last-child{
+    margin-right: 0;
+}
+.add-menu ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.add-menu{
+    color: #fff;
+}
+.add-menu span{
+    margin: 0 20px;
+    font-weight: 900;
+}
+.header-content{
+    margin-top: 100px;
+    text-align: center;
+}
+a.button{
+    padding: 20px;
+    background-color: #0aa566;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #fff;
+}
+a.button i{
+    color: #edb33b;
+}
+.content-images{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.content-images img{
+    width: 22vw;
+}
