@@ -14,7 +14,7 @@ header{
     background-color: #fbaa38;
     padding-top: 70px;
 }
-.header-top{
+.header__top{
     display: flex;
     justify-content: space-between;
     align-items: center;
