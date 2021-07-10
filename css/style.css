@@ -15,6 +15,10 @@
     height: 100vh;
     background: url(../img/header2.png) no-repeat center top / cover;
 }
+.header__container{
+    width: 90%;
+    margin: 0 auto;
+}
 .header__top{
     display: flex;
     justify-content: space-between;
@@ -53,7 +57,9 @@
     justify-content: center;
 }
 .btn{
+    font-family: 'Muli-ExtraBold';
     background-color: #0aa566;
+    text-decoration: none;
     display: flex;
     color: #fff;
     cursor: pointer;
@@ -73,10 +79,14 @@
 /*    SMOOTHIES */
 
 .smoothies{
-    height: 100vh;
+    height: auto;
+}
+.smoothies__container{
+    margin: 80px auto;
+
 }
 .smoothies__content{
-    margin: 0 auto;
+    margin: 0 auto 70px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -86,7 +96,7 @@
 .smoothies__h{
     color: #f7ae3b;
     font-size: 50px;
-    margin-top: 30px;
+    margin: 0 0 30px 0;
     font-family: 'Muli-ExtraBold';
 }
 .smoothies__p{
@@ -137,5 +147,64 @@
 }
 .products__img{
     width: 75px;
+}
 
+/*    ABOUT */
+
+.about{
+    background: url(../img/Holder.png) no-repeat center top / cover;
+    position: relative;
+}
+.about__container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.about__img{
+    width: 45%;
+    position: absolute;
+    left: 0;
+    top: 6%;
+
+}
+.about__content{
+  width: 55%;
+}
+.about__h{
+    font-family: 'Muli-ExtraBold';
+    font-size: 50px;
+    color: #fff;
+}
+.about__s{
+    color: #cae941;
+}
+.about__list{
+    padding: 0;
+    list-style: none;
+    color: #fff;
+    font-family: 'Muli-ExtraBold';
+}
+.about__list-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.about__list-img{
+    margin-right: 10px;
+    width: 13px;
+}
+.about__btn{
+    background-color: transparent;
+    border: 2px solid #f8b231;
+    width: 47%;
+    padding: 10px 25px;
+    margin: 55px 0 90px 0;
+}
+.about__btn:hover{
+    background-color: #f8b231;
+    border: 2px solid #fff;
+}
+.about__btn:hover .btn__arrow-yellow{
+    filter: brightness(5);
 }
