@@ -208,3 +208,41 @@
 .about__btn:hover .btn__arrow-yellow{
     filter: brightness(5);
 }
+
+/*    STORY    */
+
+.story__container{
+    width: 80%;
+    height: auto;
+    margin: 120px auto;
+    display: flex;
+    justify-content: center;
+}
+.story__content{
+    width: 40%;
+}
+.story__h{
+    font-family: 'Muli-ExtraBold';
+    font-size: 50px;
+    color: #f7ae3b;
+    margin: 130px 0 40px 0;
+}
+.story__p{
+    margin: 0 0 55px 0;
+    font-size: 18px;
+    font-family: 'Muli-Regular';
+}
+.story__button{
+    width: 220px;
+}
+.story__images{
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+    position: relative;
+}   
+.story__img-second{
+    position: absolute;
+    left: 0;
+    top: 5%;
+}
