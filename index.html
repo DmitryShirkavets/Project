@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <div class="header__container">
             <div class="header__top">
                 <nav class="header__menu menu">
@@ -78,6 +78,7 @@
     </header>
             
     <section class="smoothies">
+        
         <div class="smoothies__container">
             <div class="smoothies__content">
                 <h2 class="smoothies__h">What are these smoothies?</h2>
@@ -152,38 +153,38 @@
         </div>
     </section>
     
-    <section class="product">
-        <ul class="product__list">
-            <li class="product__list-item">
-                <a class="product__list-link" href="#">
-                    <img class="" src="" alt="">
-                    <h5>Dark Chocolate Smoothie</h5>
-                    <span>100 ml</span>
-                    <a href="#" class="button">Buy</a>
+    <section class="produce">
+        <ul class="produce__list">
+            <li class="produce__list-item">
+                <a class="produce__list-link" href="#">
+                    <img class="produce__img" src="img/product1.png" alt="">
+                    <h5 class="produce__h muli__bold">Dark Chocolate Smoothie</h5>
+                    <span class="produce__s muli__italic">100 ml</span>
+                    <button class="produce__btn button muli__extrabold" href="#">Buy <img class="button__img" src="img/Arrow.png" alt=""></button>
                 </a>
             </li>
-            <li>
-                <a href="#">
-                    <img src="" alt="">
-                    <h5>Vegan Lettuce Smoothie</h5>
-                    <span>100 ml</span>
-                    <a href="#" class="button">Buy</a>
+            <li class="produce__list-item">
+                <a class="produce__list-link" href="#">
+                    <img class="produce__img" src="img/product2.png" alt="">
+                    <h5 class="produce__h muli__bold">Vegan Lettuce Smoothie</h5>
+                    <span class="produce__s muli__italic">100 ml</span>
+                    <button class="produce__btn button muli__extrabold" href="#">Buy <img class="button__img" src="img/Arrow.png" alt=""></button>
                 </a>
             </li>
-            <li>
-                <a href="#">
-                    <img src="" alt="">
-                    <h5>Lemon Ginger Smoothie</h5>
-                    <span>100 ml</span>
-                    <a href="#" class="button">Buy</a>
+            <li class="produce__list-item">
+                <a class="produce__list-link" href="#">
+                    <img class="produce__img" src="img/product3.png" alt="">
+                    <h5 class="produce__h muli__bold">Lemon Ginger Smoothie</h5>
+                    <span class="produce__s muli__italic">100 ml</span>
+                    <button class="produce__btn button muli__extrabold" href="#">Buy <img class="button__img" src="img/Arrow.png" alt=""></button>
                 </a>
             </li>
-            <li>
-                <a href="#">
-                    <img src="" alt="">
-                    <h5>Turmeric Garlic Smoothie</h5>
-                    <span>100 ml</span>
-                    <a href="#" class="button">Buy</a>
+            <li class="produce__list-item">
+                <a class="produce__list-link" href="#">
+                    <img class="produce__img" src="img/product4.png" alt="">
+                    <h5 class="produce__h muli__bold">Turmeric Garlic Smoothie</h5>
+                    <span class="produce__s muli__italic">100 ml</span>
+                    <button class="produce__btn button muli__extrabold" href="#">Buy <img class="button__img" src="img/Arrow.png" alt=""> </button>
                 </a>
             </li>
         </ul>
@@ -311,5 +312,6 @@
             <a href="#">Go top</a>
         </div>
     </footer>
+    <button class="gotop" value="#header"><img class="gotop__img" src="img/gotop.png" alt="Gotop"></button>
 </body>
 </html>

@@ -10,6 +10,11 @@
 }
 
 @font-face {
+    font-family: Muli-Italic;
+    src: url(../fonts/Muli-Italic.ttf);
+}
+
+@font-face {
     font-family: Muli-Regular;
     src: url(../fonts/Muli-Regular.woff);
 }
@@ -22,6 +27,14 @@
 @font-face {
     font-family: Muli-SemiBoldItalic;
     src: url(../fonts/Muli-Semi-BoldItalic.ttf);
+}
+
+.muli__bold{
+    font-family: 'Muli-Bold';
+}
+
+.muli__italic{
+    font-family: 'Muli-Italic';
 }
 
 .muli__regular{
@@ -205,6 +218,7 @@
 
 .smoothies{
     height: auto;
+    position: relative;
 }
 .smoothies__container{
     margin: 80px auto;
@@ -348,6 +362,71 @@
 }
 .about__btn:hover .btn__arrow-yellow{
     filter: brightness(5);
+}
+
+/*    PRODUCE    */
+
+.produce__list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.produce__list-item{
+    width: 25%;
+}
+.produce__list-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 125px 0 80px 0;
+    color: #fff;
+    text-decoration: none;
+}
+.produce__list-item:first-child .produce__list-link{
+    background-color: #65281a;
+}
+.produce__list-item:nth-child(2) .produce__list-link{
+    background-color: #1c896d;
+}
+.produce__list-item:nth-child(3) .produce__list-link{
+    background-color: #f3ae38;
+}
+.produce__list-item:last-child .produce__list-link{
+    background-color: #c44519;
+}
+.produce__h{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.produce__s{
+    font-size: 21px;
+}
+.produce__btn{
+    margin-top: 65px;
+    font-size: 21px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 20px 35px;
+    color: #fff;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    width: 205px;
+    display: flex;
+    align-items: center;
+    
+}
+.button__img{
+    margin-left: 60px;
+    filter: brightness(10);
+    -webkit-filter: brightness(10);
 }
 
 /*    STORY    */
@@ -498,4 +577,23 @@
 }
 .art__img{
     z-index: 1;
+}
+
+
+.gotop{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #f2662f;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 100px;
+    bottom: 38px;
 }
