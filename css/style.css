@@ -579,6 +579,19 @@
     z-index: 1;
 }
 
+/*    INSTAGRAM   */
+
+.instagram{
+    height: 470px;
+    max-width: 100%;
+}
+.instagram__list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
 .gotop{
     width: 50px;
