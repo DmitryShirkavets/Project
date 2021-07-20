@@ -638,6 +638,8 @@
 .payment__title{
     font-size: 26px;
     color: #fff;
+    margin: 0;
+    margin-bottom: 30px;
 }
 .payment__list{
     padding: 0;
@@ -646,9 +648,14 @@
     flex-wrap: wrap;
     gap: 20px ;
 }
+.footer__follow{
+    position: relative;
+}
 .follow__title{
     font-size: 26px;
     color: #fff;
+    margin: 0;
+    margin-bottom: 30px;
 }
 .follow__input{
     padding: 20px;
@@ -659,12 +666,20 @@
     -moz-border-radius: 35px;
     -ms-border-radius: 35px;
     -o-border-radius: 35px;
+    color: #77511c;
+    text-indent: 42px;
+    font-size: 17px;
 }
-
+.follow__input::-webkit-input-placeholder{
+    color: #77511c;
+}
 .follow__list{
     list-style: none;
     display: flex;
     gap: 0 25px;
+    margin-left: 180px;
+    margin-top: 30px;
+    padding: 0;
 }
 
 .follow__item:first-child{
@@ -680,8 +695,33 @@
 .follow__link{
     text-decoration: none;
 }
+.follow__form{
+    position: relative;
+}
+.follow__form:after{
+    content: "";
+    display: block;
+    background-image:url(../img/mail-icon.png);
+    background-size: 24px 19px;
+    width: 24px;
+    height: 19px;
+    position: absolute;
+    bottom: 32%;
+    left: 5%;
+}
+.follow::after{
+    content: "";
+    display: block;
+    background-image:url(../img/footer-arrow.png);
+    background-size: 48px 43px;
+    width: 48px;
+    height: 43px;
+    position: absolute;
+    bottom: 20%;
+    left: 20%;
+}
 
-.footer__menu, .footer__payment, footer__follow{
+.footer__menu, .footer__payment, .footer__follow{
     min-height: 210px;
 }
 
