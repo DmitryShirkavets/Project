@@ -3,6 +3,20 @@ h1, h2, h3, h4, h5, h6, ul{
     padding: 0;
 }
 
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* img{
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+} */
+
 /*    FONTS    */
 
 /* Muli-Bold */
@@ -521,6 +535,19 @@ h1, h2, h3, h4, h5, h6, ul{
 
 .testimonials{
     background-color: #672f1b;
+    position: relative;
+}
+
+.testimonials::after{
+    content: "";
+    display: block;
+    width: 410px;
+    height: 301px;
+    background-image: url('../img/Dots.png');
+    background-size: 410px 301px;
+    position: absolute;
+    top: -12%;
+    right: 3%;
 }
 
 .testimonials__container{
@@ -629,15 +656,57 @@ h1, h2, h3, h4, h5, h6, ul{
 
 .instagram{
     height: 470px;
-    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
 }
-.instagram__list{
+
+.instagram__link{
+    color: #0aa566;
+    font-size: 24px;
+    margin-bottom: 44px;
     display: flex;
     align-items: center;
+}
+
+.instagram__link-img{
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin-right: 12px;
+}
+
+.instagram__list{
+    display: flex;
+    align-items: flex-end;
     list-style: none;
     margin: 0;
     padding: 0;
 }
+
+.instagram__item{
+    position: relative;
+}
+
+.instagram__img{
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.instagram__item::after{
+    content: "";
+    display: block;
+    background-image:url(../img/Icon-inst.png);
+    background-size: 26px 26px;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    bottom: 22px;
+    right: 22px;
+}
+
 
 /*    FOOTER    */
 
@@ -691,6 +760,7 @@ h1, h2, h3, h4, h5, h6, ul{
     padding: 0;
     list-style: none;
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     gap: 20px ;
 }
