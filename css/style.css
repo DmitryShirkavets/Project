@@ -358,6 +358,7 @@ a{
 }
 .about__container{
     width: 80%;
+    height: 800px;
     margin: 0 auto;
     display: flex;
     justify-content: flex-end;
@@ -379,6 +380,8 @@ a{
     font-family: 'Muli-ExtraBold';
     font-size: 55px;
     color: #fff;
+    margin-top: 95px;
+    margin-bottom: 65px;
 }
 .about__content-img{
     position: absolute;
