@@ -292,28 +292,28 @@ a{
     align-items: center;
     max-width: 920px;
 }
-.smoothies__h{
+.smoothies__title{
     color: #f7ae3b;
     font-size: 50px;
     margin: 0 0 30px 0;
     font-family: 'Muli-ExtraBold';
 }
-.smoothies__p{
+.smoothies__text{
     margin: 0;
     font-size: 18px;
     font-family: 'Muli-Regular';
 }
-.smoothies__products{
+.smoothies__variety{
     max-width: 1000px;
     margin: 0 auto;
 }
-.products__list{
+.variety__list{
     display: flex;
     flex-wrap: wrap;
     padding: 0;
     list-style: none;
 }
-.products__list-item{
+.variety__list-item{
     max-width: 240px;
     min-width: 240px;
     min-height: 180px;
@@ -329,22 +329,22 @@ a{
     border-color: #f6edde;
     padding: 10px 0;
 }
-.products__list-item:nth-child(4){
+.variety__list-item:nth-child(4){
     border-style: none none solid none; 
 }
-.products__list-item:nth-child(5){ 
+.variety__list-item:nth-child(5){ 
     border-style: none solid none none; 
 }
-.products__list-item:nth-child(6){
+.variety__list-item:nth-child(6){
     border-style: none solid none none;
 }
-.products__list-item:nth-child(7){
+.variety__list-item:nth-child(7){
     border-style: none solid none none;
 }
-.products__list-item:nth-child(8){
+.variety__list-item:nth-child(8){
     border-style: none;
 }
-.products__img{
+.variety__img{
     min-width: 75px;
     max-width: 75px;
     height: 75px;
@@ -377,7 +377,7 @@ a{
   width: 55%;
   position: relative;
 }
-.about__h{
+.about__title{
     font-family: 'Muli-ExtraBold';
     font-size: 55px;
     color: #fff;
@@ -389,7 +389,7 @@ a{
     top: 28%;
     left: 9%;
 }
-.about__s{
+.about__title--lime-txt{
     color: #cae941;
 }
 .about__list{
@@ -428,9 +428,9 @@ a{
     filter: brightness(5);
 }
 
-/*    PRODUCE    */
+/*    PRODUCTS    */
 
-.produce__list{
+.products__list{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -439,10 +439,10 @@ a{
     justify-content: space-between;
     align-items: center;
 }
-.produce__list-item{
+.products__list-item{
     width: 25%;
 }
-.produce__list-link{
+.products__list-link{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -451,27 +451,27 @@ a{
     color: #fff;
     text-decoration: none;
 }
-.produce__list-item:first-child .produce__list-link{
+.products__list-item:first-child .products__list-link{
     background-color: #65281a;
 }
-.produce__list-item:nth-child(2) .produce__list-link{
+.products__list-item:nth-child(2) .products__list-link{
     background-color: #1c896d;
 }
-.produce__list-item:nth-child(3) .produce__list-link{
+.products__list-item:nth-child(3) .products__list-link{
     background-color: #f3ae38;
 }
-.produce__list-item:last-child .produce__list-link{
+.products__list-item:last-child .products__list-link{
     background-color: #c44519;
 }
-.produce__h{
+.products__title{
     font-size: 24px;
     margin-top: 25px;
     margin-bottom: 10px;
 }
-.produce__s{
+.products__size{
     font-size: 21px;
 }
-.produce__btn{
+.products__btn{
     margin-top: 65px;
     font-size: 21px;
     background-color: transparent;
@@ -506,13 +506,13 @@ a{
 .story__content{
     width: 40%;
 }
-.story__h{
+.story__title{
     font-family: 'Muli-ExtraBold';
     font-size: 50px;
     color: #f7ae3b;
     margin: 130px 0 40px 0;
 }
-.story__p{
+.story__text{
     margin: 0 0 55px 0;
     font-size: 18px;
     font-family: 'Muli-Regular';
@@ -589,20 +589,20 @@ a{
     text-align: center;
     margin-top: 120px;
 }
-.testimonials__h{
+.testimonials__title{
     margin: 0;
     color: #f7ae3b;
     font-size: 50px;
 }
-.testimonials__spn{
+.testimonials__title--orange-txt{
     color: #f2612d;
     text-transform: uppercase;
 }
-.testimonials__p{
+.testimonials__text{
     font-size: 18px;
     color: #fff;
 }
-.testimonials__s{
+.testimonials__text--orange-clr{
     color: #f7ae3b;
 }
 
@@ -627,22 +627,25 @@ a{
 .art__info{
     position: relative;
 }
-.art__h{
+.art__title{
     font-size: 50px;
     color: #f7ae3b;
     margin: 100px 0 50px 0;
 }
-.art__info-h{
+.art__info-title{
     font-size: 30px;
     color: #f47649;
     margin-top: 40px;
     margin-bottom: 15px;
 }
-.art__info-s{
+.art__info-date{
     font-size: 16px;
 }
-.art__info-p{
+.art__info-text{
     font-size: 18px;
+}
+.art__info-link{
+    color: #000;
 }
 .art__info::after{
     content: " ";
