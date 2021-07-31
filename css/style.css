@@ -522,9 +522,9 @@ a{
 /*    STORY    */
 
 .story__container{
-    width: 70%;
+    width: 68.5%;
     height: auto;
-    margin: 120px auto;
+    margin: 120px auto 160px;
     display: flex;
     justify-content: center;
 }
@@ -532,15 +532,14 @@ a{
     width: 40%;
 }
 .story__title{
-    font-family: 'Muli-ExtraBold';
     font-size: 50px;
     color: #f7ae3b;
-    margin: 130px 0 40px 0;
+    margin: 125px 0 35px 0;
 }
 .story__text{
     margin: 0 0 55px 0;
     font-size: 18px;
-    font-family: 'Muli-Regular';
+    line-height: 1.9;
 }
 .story__button{
     font-size: 21px;
@@ -574,8 +573,8 @@ a{
 }   
 .story__img-second{
     position: absolute;
-    left: 6%;
-    top: 5%;
+    left: 5%;
+    top: 4%;
 }
 
 
