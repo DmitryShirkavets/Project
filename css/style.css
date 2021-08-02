@@ -11,6 +11,11 @@ a{
     text-decoration: none;
 }
 
+button{
+    border: none;
+    background-color: transparent;
+}
+
 /* img{
     max-width: 100%;
     width: 100%;
@@ -88,10 +93,24 @@ a{
 
 .header__top{
     height: 75px;
+    position: relative;
+}
+
+.header__burger-btn{
+    background-image: url('../img/menu.png');
+    background-size: cover;
+    width: 39px;
+    height: 21px;
+    position: fixed;
+    right: 50px;
+    top: 50px;
+    display: none;
+}
+
+.header__navigation{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
 }
 
 .menu__list{
@@ -932,7 +951,50 @@ a{
 /*    ADAPTIVE    */
 
 @media screen and (max-width: 768px) {
-    .header__menu, .header__right-block{
+    .header__burger-btn{
+        display: block;
+        z-index: 2;
+    }
+    .header__navigation {
+        /* display: none; */
+        background-color: #0aa566;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        align-items: center; 
+    }
+    .menu__list {
+        flex-direction: column;
+        height: 500px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo__img {
+        width: 250px;
+    }
+    .menu__item {
+        margin: 0;
+    }
+    .menu__link {
+        font-size: 2rem;   
+    }
+    .header__right-block {
+        margin: 100px 0 150px;
+    }
+
+
+
+
+
+    section{
+        display: none;
+    }
+    .footer, .instagram, .blog{
         display: none;
     }
 }
