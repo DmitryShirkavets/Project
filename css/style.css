@@ -982,6 +982,8 @@ img{
 
 /*    ADAPTIVE    */
 
+/*      768px    */
+
 @media screen and (max-width: 768px) {
 
     /*    HEADER    */
@@ -1034,6 +1036,27 @@ img{
         min-width: 48%;
     }
 
+    /*    ABOUT    */
+
+    .about__container{
+        width: 90%;
+        display: block;
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    
+    .about__img{
+        position: static;
+    }
+
+    .about__content{
+        width: auto;
+    }
+
+    .about__content::before{
+        top: 30%;
+        left: 48%;
+    }
 
     section{
         display: none;
@@ -1041,7 +1064,7 @@ img{
     .footer, .instagram, .blog{
         display: none;
     }
-    .smoothies{
+    .smoothies, .about{
         display: block;
     }
 }
