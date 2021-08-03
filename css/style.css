@@ -1058,13 +1058,24 @@ img{
         left: 48%;
     }
 
+    /*    PRODUCTS    */
+
+    .products{
+        overflow: auto;
+    }
+
+    .products__list{
+        width: 1920px;
+    }
+
+
     section{
         display: none;
     }
     .footer, .instagram, .blog{
         display: none;
     }
-    .smoothies, .about{
+    .smoothies, .about, .products{
         display: block;
     }
 }
