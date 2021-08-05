@@ -1114,12 +1114,31 @@ img{
         margin-top: 85px;
     }
 
+    /*    BLOG    */
+
+    .blog__container{
+        width: 90%;
+    }
+
+    .art__content{
+        flex-direction: column;
+    }
+
+    .art__info::after{
+        display: none;
+    }
+
+    .art__info, .art__img{
+        width: 100%;
+    }
+
+
 
 
     section{
         display: none;
     }
-    .footer, .instagram, .blog{
+    .footer, .instagram{
         display: none;
     }
     .smoothies, .about, .products, .story, .testimonials{
