@@ -723,6 +723,7 @@ img{
 }
 .art__info{
     position: relative;
+    margin-left: 55px;
 }
 .art__title{
     font-size: 50px;
@@ -834,6 +835,11 @@ img{
     background-color: #f3ad38;
     display: flex;
     height: 370px;
+}
+.footer__content{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
 }
 .footer__list{
     list-style: none;
@@ -1132,16 +1138,36 @@ img{
         width: 100%;
     }
 
+    /*    INSTAGRAM    */
+
+    .instagram__list{
+        width: 1900px;
+        overflow-x: auto;
+    }
+
+    /*    FOOTER    */
+
+    .footer__container{
+        flex-direction: column;
+        padding-top: 70px;
+    }
+
+    .footer__top{
+        height: auto;
+    }
+
+    .footer__logo{
+        margin-bottom: 70px;
+    }
+
+    .footer__content{
+        width: 100%;
+        justify-content: space-around;
+        margin-bottom: 85px;
+    }
 
 
 
-    section{
-        display: none;
-    }
-    .footer, .instagram{
-        display: none;
-    }
-    .smoothies, .about, .products, .story, .testimonials{
-        display: block;
-    }
+
+
 }
