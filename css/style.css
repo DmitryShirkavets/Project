@@ -1000,6 +1000,7 @@ img{
         display: block;
         z-index: 2;
     }
+
     .header__navigation {
         display: none;
         background-color: #0aa566;
@@ -1013,15 +1014,18 @@ img{
         justify-content: flex-end;
         align-items: center; 
     }
+
     .menu__list {
         flex-direction: column;
         height: 500px;
         justify-content: space-between;
         align-items: center;
     }
+
     .menu__link {
         font-size: 2rem;   
     }
+
     .header__right-block {
         margin: 100px 0 150px;
     }
@@ -1187,9 +1191,25 @@ img{
         justify-content: space-around;
         margin-bottom: 85px;
     }
+}
 
+/*    360    */
 
+@media screen and (max-width: 768px){
 
+    /*    SMOOTHIES    */
 
+    .smoothies__title{
+        font-size: 2.2rem;
+        text-align: center;
+    }
 
+    .variety__list-item{
+        min-width: 49.5%;
+        font-size: 1rem;
+    }
+
+    .about, .testimonials, .footer{
+        display: none;
+    }
 }
