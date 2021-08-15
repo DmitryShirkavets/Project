@@ -743,6 +743,7 @@ img{
     margin-top: 45px;
     margin-left: 60px;
     font-size: 18px;
+    line-height: 1.8;
 }
 .art__info-link{
     color: #000;
@@ -1225,11 +1226,19 @@ img{
         display: none;
     }
 
+    /*    BLOG    */
+
+    .art__info, .art__info-text{
+        margin-left: 0;
+    }
+
     .story__images, .story__img-first{
         width: 100%;
     }
 
-
+    .art__info-text{
+        font-size: 1.03rem;
+    }
 
 
 
