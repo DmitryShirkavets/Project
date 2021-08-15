@@ -1209,6 +1209,16 @@ img{
         font-size: 1rem;
     }
 
+    /*    PRODUCTS    */
+
+    .products__list{
+        width: 1200px;
+    }
+
+    .products__title{
+        font-size: 1.35rem;
+    }
+
     .about, .testimonials, .footer{
         display: none;
     }
