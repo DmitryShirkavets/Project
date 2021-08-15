@@ -1219,6 +1219,23 @@ img{
         font-size: 1.35rem;
     }
 
+    /*    STORY    */
+
+    .story__img-second{
+        display: none;
+    }
+
+    .story__images, .story__img-first{
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
     .about, .testimonials, .footer{
         display: none;
     }
